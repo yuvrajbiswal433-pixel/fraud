@@ -1,0 +1,20 @@
+cat > .gitignore <<'EOF'
+# Python environment and cache
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large datasets
+train_transaction.csv
+test_transaction.csv
+train_identity.csv
+test_identity.csv
+
+# Generated output files
+fraud_predictions.csv
+sample_submission.csv
+
+# macOS
+.DS_Store
+EOF
